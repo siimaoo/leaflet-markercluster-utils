@@ -1,0 +1,43 @@
+{
+  "name": "leaflet-markercluster-utils",
+  "version": "0.1.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "./dist/types/index.d.ts",
+  "scripts": {
+    "test": "vite",
+    "lint": "eslint --ext .ts .",
+    "prepare": "husky install",
+    "build": "tsc --build tsconfig.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/leaflet": "^1.9.3",
+    "@types/leaflet.markercluster": "^1.5.1",
+    "@typescript-eslint/eslint-plugin": "^5.57.1",
+    "@typescript-eslint/parser": "^5.57.1",
+    "eslint": "^8.38.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-unicorn": "^46.0.0",
+    "husky": "^8.0.3",
+    "leaflet": "^1.9.3",
+    "leaflet.markercluster": "^1.5.3",
+    "lint-staged": "^13.2.1",
+    "prettier": "^2.8.7",
+    "typescript": "^5.0.4",
+    "vite": "^4.2.0"
+  },
+  "peerDependencies": {
+    "leaflet": "^1.9.3",
+    "leaflet.markercluster": "^1.5.3"
+  },
+  "lint-staged": {
+    "*.{js,ts}": "eslint --cache --fix"
+  }
+}

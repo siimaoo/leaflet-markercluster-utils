@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Tests</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div id="app">
+      <div class="flex w-full h-screen">
+        <div class="w-[calc(100%-350px)] h-full">
+          <div
+            id="map"
+            class="w-full h-full"
+          ></div>
+        </div>
+        <div class="w-[350px] h-full bg-slate-100 px-4 py-2 flex flex-col gap-4">
+          <button
+            id="open-cluster"
+            class="w-full bg-slate-200 rounded py-2"
+          >
+            Open cluster
+          </button>
+          <button
+            id="close-cluster"
+            class="w-full bg-slate-200 rounded py-2"
+          >
+            Close any cluster
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="./index.ts"
+      type="module"
+    ></script>
+  </body>
+</html>
