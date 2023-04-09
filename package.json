@@ -1,7 +1,8 @@
 {
   "name": "leaflet-markercluster-utils",
-  "version": "0.1.0",
-  "description": "",
+  "version": "0.1.1",
+  "description": "Functions to help work with leaflet.markercluster",
+  "license": "MIT",
   "main": "./dist/index.js",
   "files": [
     "dist"
@@ -14,8 +15,15 @@
     "build": "tsc --build tsconfig.json"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Lucas Simão <siimaoo.lucas@gmail.com>",
+  "homepage": "https://github.com/siimaoo/leaflet-markercluster-utils#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/siimaoo/leaflet-markercluster-utils.git"
+  },
+  "bugs": {
+    "url": "https://github.com/siimaoo/leaflet-markercluster-utils/issues"
+  },
   "devDependencies": {
     "@types/leaflet": "^1.9.3",
     "@types/leaflet.markercluster": "^1.5.1",
