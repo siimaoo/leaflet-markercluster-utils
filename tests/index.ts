@@ -52,7 +52,9 @@ map.addLayer(overlay);
 document.querySelector('#open-cluster')?.addEventListener('click', () => {
   const currentCluster = getClusterAtCurrentZoom(map.getZoom(), someMarker);
   if (!currentCluster) return;
-  openCluster(cluster, currentCluster);
+  openCluster(cluster, currentCluster, () => {
+    console.log('onfinish');
+  });
 });
 
 document.querySelector('#close-cluster')?.addEventListener('click', () => {
