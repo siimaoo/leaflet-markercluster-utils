@@ -9,7 +9,7 @@ export function getClusterAtCurrentZoom(
 
   const parentZoom = parent._zoom;
 
-  if (parentZoom === currentZoom) {
+  if (parentZoom >= currentZoom) {
     return parent; // parent is at the current zoom so it's the cluster we want
   }
 
