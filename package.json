@@ -15,7 +15,14 @@
     "prepare": "husky install",
     "build": "tsc --build tsconfig.json"
   },
-  "keywords": [],
+  "keywords": [
+    "leaflet",
+    "marker",
+    "leaflet.markercluster",
+    "cluster",
+    "markercluster",
+    "utils"
+  ],
   "author": "Lucas Simão <siimaoo.lucas@gmail.com>",
   "homepage": "https://github.com/siimaoo/leaflet-markercluster-utils#readme",
   "repository": {
