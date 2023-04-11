@@ -13,7 +13,10 @@
     "test": "vite",
     "lint": "eslint --ext .ts .",
     "prepare": "husky install",
-    "build": "tsc --build tsconfig.json"
+    "build": "tsc --build tsconfig.json",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
   },
   "keywords": [
     "leaflet",
