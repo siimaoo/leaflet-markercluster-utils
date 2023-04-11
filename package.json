@@ -1,6 +1,6 @@
 {
   "name": "leaflet-markercluster-utils",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "packageManager": "pnpm@7.24.3",
   "description": "Functions to help work with leaflet.markercluster",
   "license": "MIT",
