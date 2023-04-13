@@ -9,7 +9,9 @@ export function getClusterAtCurrentZoom(
 
   const parentZoom = parent._zoom;
 
-  if (parentZoom <= currentZoom) {
+  // is necessary to round the zoom level because the zoom level is not always an integer
+  // and leaflet.markercluster always set the _zoom property of a cluster to an integer
+  if (parentZoom <= Math.round(currentZoom)) {
     return parent; // parent is at the current zoom so it's the cluster we want
   }
 

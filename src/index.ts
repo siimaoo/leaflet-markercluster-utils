@@ -5,3 +5,4 @@ export * from './open-cluster';
 export * from './find-marker';
 export * from './is-cluster';
 export * from './is-marker';
+export * from './is-marker-in-cluster';
